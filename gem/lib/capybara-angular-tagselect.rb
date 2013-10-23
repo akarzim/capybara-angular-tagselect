@@ -3,7 +3,7 @@ require 'rspec/core'
 
 module Capybara
   module AngularTagselect
-    def tagSelect(value, from_label: nil, from_tag: nil, xpath: nil)
+    def tag_select(value, from_label: nil, from_tag: nil, xpath: nil)
       fail "Must pass a hash containing 'from_label' or 'from_tag' or 'xpath'" unless from_label.present? || from_tag.present? || xpath.present?
 
       tag_container = first :xpath, xpath if xpath.present?

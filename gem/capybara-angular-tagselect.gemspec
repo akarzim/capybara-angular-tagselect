@@ -9,8 +9,9 @@ Gem::Specification.new do |gem|
   gem.authors       = ["François Vantomme"]
   gem.email         = ["akarzim@gmail.com"]
   gem.description   = %q{Helper for triggering select for angular TagSelect directive}
-  gem.summary       = ""
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/akarzim/capybara-angular-tagselect"
+  gem.summary       = gem.description
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
