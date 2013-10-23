@@ -1,6 +1,6 @@
 # Capybara::Angular::TagSelect
 
-All this gem does is something very simple- allow you to trigger tagSelect
+All this gem does is something very simple- allow you to trigger TagSelect
 dropdown to select the value you want. The original select doesn't with the
 javascript overrides, so this new helper method does only this thing.
 
@@ -9,12 +9,12 @@ javascript overrides, so this new helper method does only this thing.
 
 Add this line to your application's Gemfile:
 
-    gem 'capybara-angular-tagSelect', group: :test
+    gem 'capybara-angular-tagselect', group: :test
 
 Or, add it into your test group
 
     group :test do
-      gem 'capybara-angular-tagSelect'
+      gem 'capybara-angular-tagselect'
       ...
     end
 
@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install capybara-angular-tagSelect
+    $ gem install capybara-angular-tagselect
 
 The gem automatically hook itself into rspec helper using Rspec.configure.
 
@@ -33,7 +33,7 @@ The gem automatically hook itself into rspec helper using Rspec.configure.
 
 Just use this method inside your capybara test:
 
-    tagSelect("Dropdown Text", from: "Label of the dropdown")
+    tag_select("Dropdown Text", from: "Label of the dropdown")
 
 ## Known Issues
 
