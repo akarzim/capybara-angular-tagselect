@@ -5,7 +5,7 @@ require 'capybara-angular-tagselect/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "capybara-angular-tagselect"
-  gem.version       = Capybara::AngularTagselect::VERSION
+  gem.version       = Capybara::Angular::Tagselect::VERSION
   gem.authors       = ["François Vantomme"]
   gem.email         = ["akarzim@gmail.com"]
   gem.description   = %q{Helper for triggering select for angular TagSelect directive}
