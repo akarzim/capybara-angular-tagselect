@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'capybara-angular-tagSelect/version'
+require 'capybara-angular-tagselect/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "capybara-angular-tagSelect"
-  gem.version       = Capybara::Angular::TagSelect::VERSION
+  gem.name          = "capybara-angular-tagselect"
+  gem.version       = Capybara::AngularTagselect::VERSION
   gem.authors       = ["François Vantomme"]
   gem.email         = ["akarzim@gmail.com"]
   gem.description   = %q{Helper for triggering select for angular TagSelect directive}

@@ -1,5 +1,5 @@
 module Capybara
-  module Angular::TagSelect
+  module AngularTagselect
     VERSION = '0.0.1'
   end
 end

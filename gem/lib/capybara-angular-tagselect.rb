@@ -1,8 +1,8 @@
-require 'capybara-angular-tagSelect/version'
+require 'capybara-angular-tagselect/version'
 require 'rspec/core'
 
 module Capybara
-  module Angular::TagSelect
+  module AngularTagselect
     def tagSelect(value, from_label: nil, from_tag: nil, xpath: nil)
       fail "Must pass a hash containing 'from_label' or 'from_tag' or 'xpath'" unless from_label.present? || from_tag.present? || xpath.present?
 
@@ -29,5 +29,5 @@ module Capybara
 end
 
 RSpec.configure do |c|
-  c.include Capybara::Angular::TagSelect
+  c.include Capybara::AngularTagselect
 end
