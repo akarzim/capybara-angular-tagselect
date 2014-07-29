@@ -52,7 +52,7 @@ module Capybara
         def initialize(tag_container, pane)
           @tag_container = tag_container
           @pane = pane || @tag_container.container.find('ul', match: :prefer_exact)
-          @element = @pane.first('li')
+          @element = @pane.find('li', match: :first)
         end
 
         def add_or_browse_tag
