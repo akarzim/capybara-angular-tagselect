@@ -65,7 +65,8 @@ module Capybara
 
         def add_tag
           element.hover
-          element.find('div>i[ng-click^="addTag"]').click
+          element.find('div.text').hover
+          element.find('i[ng-click^="addTag"]').click
         end
 
         def next_sibling
